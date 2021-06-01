@@ -1,9 +1,11 @@
-import { Button } from "react-bootstrap";
+import { Alert, Button } from "react-bootstrap";
 
 export function Member2() {
   return (
-    <div>
-      <h1>Member 2 - Login Module</h1>
+    <div className="w-75">
+      <Alert variant="primary">
+        <h4>M2. Login Module</h4>
+      </Alert>
       <div className="mb-1">
         <input
           type="text"
